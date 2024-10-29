@@ -1,0 +1,43 @@
+
+.registration {
+    margin: 0; /* Убираем стандартные отступы */
+    padding: 20px 100px;
+    border: 2px double #ffc4c4;
+    background-color: #f2f2f2;
+    
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Comic Sans MS;
+    align-items: center;
+}
+
+
+
+.container {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    height: 100vh;
+}
+.button {
+    background-color: #ffc4c4;
+    border: 1;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.button:hover {
+    background-color: #b4ffb8; /* Цвет кнопки меняется при наведении на нее */
+}
+

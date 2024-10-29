@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Привязываем к данной странице CSS-стили -->
+</head>
+<body>
+    <div class="registration"> <!-- Создаем div, чтобы вследствии было легче управлять элементами внутри него -->
+        <h1 class="title">Вход</h1>
+        <div class="container">
+            <form> <!-- Сама форма -->
+                <label class="name">Введите ФИО: <input type="text" style="width: 230px; padding: 5px 5px; font-size: 16px;"/></label> <!-- Тег <label> позволяет вставлять слова до или после элемента <input> -->
+                <br/><br/> <!-- Делаем красивые отступы между label'ами :) -->
+                <label class="email">Введите e-mail: <input type="email"style="width: 222px; padding: 5px 5px; font-size: 16px;"/></label>
+                <br/><br/>
+                <label class="password">Введите пароль: <input type="password" style="width: 215px; padding: 5px 5px; font-size: 16px;"/></label>
+                <br/><br/>
+                <label class="password">Повторите пароль: <input type="password" style="width: 200px; padding: 5px 5px; font-size: 16px;"/></label>
+                <br/><br/>
+                <input type="checkbox" id="checkbox" style="cursor: pointer;"/><label  for="checkbox" class="checkbox" style="padding: 0px 5px;">Сохранить введенные данные </label>
+                <br/><br/>
+                <input type="submit" class="button"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
